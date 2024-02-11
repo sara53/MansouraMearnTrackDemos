@@ -1,0 +1,33 @@
+1- Install NodeJs  ---> npm --> node package manger
+
+2- npm i -g @angular/cli@16 // only one
+
+3-open powershell as adminstrator and run this command (only One)
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+4- set default Profile in vscode to cmd
+
+---------------------------------------------------------------------------
+== to create angular project
+
+ng new projectName
+
+
+== to run project
+ == ng serve -o
+ == npm start
+
+-----------------------------------------------------------------
+== to gernerate new Component using terminal
+ng g c componentName --skip-tests
+--------
+ ng g c yourCustomFolderName/componentName --skip-tests --flat 
+-----------------------------------------------------------------
+== to install bootstrap
+-- npm install bootstrap 
+
+then go to angular.json and set 
+
+ "node_modules/bootstrap/dist/css/bootstrap.min.css", in styles Array
+ "node_modules/bootstrap/dist/js/bootstrap.bundle.js", in scripts Array
+-----------------------------------------------------------------
